@@ -1,0 +1,9 @@
+@function rem($value) {
+	@return ($value / 15) * 1rem;
+}
+
+@mixin desktop {
+	@media screen and (min-width: 1024px) {
+		@content;
+	}
+}

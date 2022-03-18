@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: $dark-blue;
+	color: $light-cyan;
+	font-weight: 800;
+	font-family: "Manrope", sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+a {
+	color: $neon-green;
+}
