@@ -15,12 +15,12 @@ async function generateAdvice() {
 
 function displayAdvice(newAdvice) {
 	adviceId.textContent = `advice #${newAdvice.id}`;
-	adviceContent.textContent = `"${decodeURI(newAdvice.advice)}"`;
+	adviceContent.textContent = `“${decodeURI(newAdvice.advice)}”`; // We use decode URI to avoid special characters
 
-	// Once the 2 second cooldown is finished, we enable the button
+	// Once the 1.5 second cooldown is finished, we enable the button
 	setTimeout(() => {
 		button.classList.toggle("disabled");
-	}, 2000);
+	}, 1500);
 }
 
 button?.addEventListener("click", () => {

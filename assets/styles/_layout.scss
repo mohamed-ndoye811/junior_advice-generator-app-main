@@ -1,5 +1,6 @@
 main {
 	padding: rem(120) rem(16) 0;
+	height: 100%;
 
 	@include desktop {
 		padding: 0;
@@ -11,9 +12,12 @@ main {
 }
 
 footer {
-	position: absolute;
-	bottom: rem(15);
 	text-align: center;
-	font-size: rem(12);
+	font-size: rem(10);
 	width: 100%;
+	padding-bottom: rem(25);
+
+	@include desktop {
+		font-size: rem(12);
+	}
 }

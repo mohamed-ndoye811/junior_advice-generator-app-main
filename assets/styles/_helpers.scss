@@ -1,5 +1,5 @@
 @function rem($value) {
-	@return ($value / 15) * 1rem;
+	@return calc($value / 15) * 1rem;
 }
 
 @mixin desktop {

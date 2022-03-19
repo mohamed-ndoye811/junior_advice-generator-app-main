@@ -1,5 +1,6 @@
 main {
   padding: 8rem 1.0666666667rem 0;
+  height: 100%;
 }
 @media screen and (min-width: 1024px) {
   main {
@@ -12,11 +13,15 @@ main {
 }
 
 footer {
-  position: absolute;
-  bottom: 1rem;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.6666666667rem;
   width: 100%;
+  padding-bottom: 1.6666666667rem;
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    font-size: 0.8rem;
+  }
 }
 
 * {
@@ -80,6 +85,7 @@ button.disabled {
   flex-direction: column;
   row-gap: 2rem;
   padding: 2.9333333333rem 1.6rem 4.2666666667rem;
+  margin: 0 auto;
   max-width: 36rem;
   box-shadow: 0.3333333333rem 0.7333333333rem 2.5333333333rem rgba(0, 0, 0, 0.1);
 }
